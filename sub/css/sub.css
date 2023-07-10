@@ -1,0 +1,428 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+div.a {
+    width: 1220px;
+    height: 615px;
+
+    margin: 0 auto;
+}
+
+div.b {
+    width: 1220px;
+    height: 560px;
+    margin: 0 auto;
+}
+
+div.c {
+    width: 1220px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    left: 10%;
+}
+
+
+.bigimg {
+    margin-bottom: 10px;
+    width: 480px;
+    height: 480px;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.smallimg {
+    position: relative;
+    left: -4%;
+}
+
+.big {
+    width: 480px;
+    height: auto;
+    overflow: hidden;
+}
+
+.big:hover {
+    transform: scale(1.1);
+}
+
+.big {
+    transition: all 0.8s;
+}
+
+
+.small {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: -30%;
+
+}
+
+.small {
+    float: left;
+    opacity: 1;
+    transition: .3s ease-in-out;
+    transition: all 0.8s;
+    position: relative;
+    left: 15%;
+    margin: 3px;
+}
+
+.small:hover {
+    opacity: 0.5;
+}
+
+.bsong {
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #dfddcd;
+    position: absolute;
+    top: 30px;
+    right: 48%;
+}
+
+.bsong p {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(126, 110, 91);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+}
+
+.text-1 {
+    font-family: 'Bacasime Antique', serif;
+    font-size: 46px;
+    color: #615a4d;
+    position: absolute;
+    top: 10%;
+    right: 33%;
+    cursor: default;
+}
+
+.a>p {
+    float: left;
+    position: relative;
+    right: -35%;
+    top: -69.5%;
+    color: #443e33;
+    cursor: default;
+}
+
+.a>p:nth-of-type(2) {
+    font-size: 10px;
+    position: relative;
+    top: -68.8%;
+    right: -36%;
+}
+
+.a>p a {
+    color: #615a4d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+}
+
+.a>p:nth-of-type(3) {
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    position: relative;
+    top: -58%;
+    left: 20%;
+    color: #443e33;
+}
+
+.a>p:nth-of-type(4) {
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -50%;
+    left: 12.5%;
+    color: #615a4d
+}
+
+select {
+    position: relative;
+    top: -35%;
+    left: 3.9%;
+    width: 300px;
+    height: 40px;
+    background-color: #706757;
+    background-color: #e6decf;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    color: rgb(48, 45, 30);
+    text-align: left;
+    font-weight: bold;
+
+
+}
+
+.button_a {
+    position: relative;
+    top: -13%;
+    left: -22%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #e6decf;
+    color: rgb(61, 47, 28);
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+
+.button_a:hover {
+    opacity: 0.8;
+}
+
+.button_b {
+    position: relative;
+    top: -19.65%;
+    right: -52%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #706757;
+    color: aliceblue;
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+
+.button_b:hover {
+    opacity: 0.8;
+}
+
+
+
+.b>p {
+    font-size: 40px;
+    margin: 10px;
+    position: relative;
+    top: 10%;
+    font-family: 'Bacasime Antique', serif;
+    color: #615a4d;
+    ;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.b>.container div {
+    width: 350px;
+    height: 400px;
+    background-color: #443e33;
+    margin: 10px;
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+
+}
+
+.b>.container div img {
+    width: 115%;
+    height: auto;
+    position: relative;
+    left: -25px;
+}
+
+.b>.container div img:hover {
+    transform: scale(1.2);
+}
+
+.b>.container div img {
+    transition: all 1s;
+}
+
+.b>.container div:nth-of-type(2) img {
+    width: 115%;
+    height: auto;
+    position: relative;
+    left: -25px;
+}
+
+.b>.container div:nth-of-type(3) img {
+    width: 150%;
+    height: auto;
+    position: relative;
+    left: -26%;
+}
+
+.b>.container div:nth-of-type(4) img {
+    width: 150%;
+    height: auto;
+    position: relative;
+    left: -26%;
+    top: -18%;
+}
+
+
+
+#wrap {
+    width: 1220px;
+
+    margin: 0 auto;
+
+}
+
+#shipping {
+    width: 1220px;
+    height: 385px;
+
+}
+
+#shipping>ul {
+    width: 1220px;
+
+    margin: 2px
+}
+
+#review {
+    width: 1220px;
+    height: 385px;
+    display: none;
+}
+
+#inquiry {
+    width: 1220px;
+    height: 385px;
+
+    display: none;
+}
+
+#qna {
+    width: 1220px;
+    height: 385px;
+
+    display: none;
+}
+
+.text_box h2 {
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    color: #615a4d;
+}
+
+.text_box ul {
+    position: relative;
+    top: 50px;
+    list-style: none;
+    margin: 10px;
+    color: #615a4d;
+}
+
+button {
+    width: 280px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-bottom: none;
+    background-color: #c9bba4;
+
+}
+
+#button_box {
+    position: relative;
+    top: 20px;
+}
+
+#button_box>button:nth-of-type(1):hover {
+    opacity: 0.8;
+}
+
+#button_box>button:nth-of-type(2):hover {
+    opacity: 0.8;
+}
+
+#button_box>button:nth-of-type(3):hover {
+    opacity: 0.8;
+}
+
+#button_box>button:nth-of-type(4):hover {
+    opacity: 0.8;
+}
+
+.text_box>table {
+    width: 100%;
+    border-top: 1px solid #382f22;
+    border-collapse: collapse;
+    position: relative;
+    top: 50px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #382f22;
+    padding: 10px;
+    color: #382f22;
+}
+
+.text_box span {
+    color: rgb(167, 39, 39);
+}
+
+.review_button {
+    width: 100px;
+    height: 40px;
+    background-color: #695a48;
+    border: 1px solid #382f22;
+    font-size: 15px;
+    font-family: "맑은 고딕";
+    position: relative;
+    left: 90%;
+    top: 10px;
+    color: #e6decf;
+}
+
+.qna_button {
+    width: 100px;
+    height: 40px;
+    background-color: #695a48;
+    border: 1px solid #382f22;
+    font-size: 15px;
+    font-family: "맑은 고딕";
+    position: relative;
+    left: 90%;
+    top: 10px;
+    color: #e6decf;
+}
+
+.review_button:hover {
+    opacity: 0.8;
+}
+
+.qna_button:hover {
+    opacity: 0.8;
+}
+
+td a:hover {
+    color: #a89375;
+}
+
+
+.end {position: relative; top: 75%; font-size: 13px; color: #615747;
+    text-align: center;}
